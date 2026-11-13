@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.navbar1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20px;
+    background-color: #263746;
+    align-items: center;
+}
+.navbar2{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 40px;
+}
+.num5{
+    color: blue;
+}
+.num6 a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    padding: 10px;
+}
+.num6 a:hover{
+    background-color: orangered;
+    border-radius: 18px;
+}
+.active{
+    border-bottom: 2px solid blue;
+}
+.num7{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+.num7 input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+ed{
+    color: white;
+}
+.num9{
+    color: blue;
+}
+.num11{
+    background-color: blue;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 29px;
+    font-size: 18px;
+    border: none;
+}
+.num11:hover{
+    background-color: orangered;
+
+}
+.body{
+    background-image: url(IMAGES/HERO.png);
+    background-size: 100% 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 50px;
+}
+.men1{
+    color: white;
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+.men2{
+    color: white;
+    font-size: 40px;
+    line-height: 1.1;
+}
+.men3{
+    color: white;
+    font-size: 28px;
+}
+.body-bottom{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(200, 241, 241);
+    align-items: center;
+    height: 120px;
+}
+.body-remain1{
+    margin: 30px;
+}
+.body-remain{
+    display: flex;
+    justify-content: space-between;
+}
+.body-remain2{
+    margin-top: 12px;
+}
+.wen1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.smrt{
+    height: 20vh;
+    width: 140px;
+    border-radius: 15px;
+}
+.laptop{
+    height: 170px;
+    background-color: rgb(211, 248, 236);
+    width: 140px;
+    border-radius: 15px;
+}
+.iphone{
+    height: 170px;
+    background-color: rgb(211, 248, 236);
+    border-radius: 15px;
+    width: 140px;
+}
+.name1{
+    margin-left: 10px;
+}
+.smrt2{
+    height: 20vh;
+    width: 140px;
+    border-radius: 15px;
+}
+.earphones{
+    height: 170px;
+    background-color: rgb(211, 248, 236);
+    width: 140px;
+    border-radius: 15px;
+}
+.smrt3{
+    height: 20vh;
+    width: 140px;
+    border-radius: 15px;
+}
+.smartwatches{
+    height: 170px;
+    background-color: rgb(211, 248, 236);
+    width: 140px;
+    border-radius: 15px;
+}
+.head1{
+    margin: 30px;
+}
+.head4{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+mast{
+    color: gold;
+    font-size: 20px;
+}
+masi{
+    text-decoration: line-through;
+}
+.btn1{
+    background-color: #263746;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 40px;
+    border-radius: 15px;
+    color: antiquewhite;
+}
+.smrt5{
+    background-color: blue;
+}
+.doublediv{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+
+}
+.firstdoublediv{
+    color: white;
+    background-image: url(IMAGES/IMG-20261112-WA8207.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 18px;
+    width: 600px;
+    height: 35vh;
+    justify-content: end;
+    text-align: right;
+}
+.sam1{
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.sam2{
+    margin-right: 67px;
+}
+.sam3{
+    margin-right: 25px;
+}
+.sam5{
+    margin-right: 97px;
+}
+.sam4{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 18px;
+    margin-right: 190px;
+    border: none;
+}
+.seconddoublediv{
+    color: black;
+    background-image: url(IMAGES/PHONES.jpg);
+    width: 600px;
+    height: 35vh;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 18px;
+
+}
+.sam6{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.sam7{
+    margin-left: 50px;
+}
+.sam8{
+    margin-left: 50px;
+}
+.sam9{
+    margin-left: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 18px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.btn1{
+    border: none;
+}
+.cat{
+    color: black;
+    font-size: 40px;
+    
+}
+.samsungimage{
+    width: 100px;
+    height: 50px;
+}
+.jblimage{
+    width: 100px;
+    height: 50px;
+}
+.sonyimage{
+    background-color: transparent;
+    color: orange;
+    width: 100px;
+    height: 50px;
+}
+.asus{
+    width: 80px;
+    height: 30px;
+}
+.hplogo{
+    width: 80px;
+    height: 40px;
+}
+.xiaomilogo{
+    width: 130px;
+    height: 50px;
+}
+.beats{
+    width: 50px;
+    height: 40px;
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(209, 207, 207);
+    text-align: center;
+    padding: 15px;
+    align-items: center;
+}
+.customers{
+    display: flex;
+    justify-content: space-between;
+}
+.customer1, .customer2, .customer3{
+    border: gray solid 2px;
+    height: 120px;
+    width: 400px;
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+.trustedbrands{
+    margin: 30px;
+}
+.rating{
+    margin: 30px;
+}
+.sit{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+er{
+    color: gold;
+}
+footer{
+    background-color: #263746;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footerdiv{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: grey solid 2px;
+    padding-bottom: 20px;
+}
+.sre{
+    background-color: transparent;
+    width: 250px ;
+    height: 36px;
+    border: none;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-left: 20px;
+    font-size: large;
+
+}
+.sre1{
+    width: 50px;
+    height: 40px;
+    background-color: blue;
+    font-weight: 900;
+    border: none;
+    align-items: center;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.search{
+    border: gray solid 1px;
+    width: 301.99px;
+    border-radius: 12px;
+    height: 40px;
+    align-items: center;
+    
+}
+ef{
+    margin-top: 100px;
+}
